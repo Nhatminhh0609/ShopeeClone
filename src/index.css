@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+  
+
+html {
+  height: 100%;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@theme {
+  --fill-bg-logo: #ee4d2d;
+  --color-brand-orange: #ee4d2d;
+}
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+  max-width: none;
+  padding: 0;
+}
